@@ -78,6 +78,14 @@ export default function RootLayout({
         {/* Monetag Verification */}
         <meta name="monetag" content="9840f4796aa4dbd8c3b275342d738778" />
 
+        {/* Monetag Multitag Programmatic Monetization Script */}
+        <script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="277406"
+          async
+          data-cfasync="false"
+        />
+
         {/* Google AdSense Programmatic Monetization Script */}
         {adsenseClientId && (
           <Script
