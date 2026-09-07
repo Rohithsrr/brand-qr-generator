@@ -5,7 +5,7 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://brandqr.io'),
+  metadataBase: new URL('https://brand-qr-generator.brandqr.workers.dev'),
   title: 'Free Custom Brand Logo QR Code Generator | Zero Expiration Standees',
   description:
     'Design, customize, and export print-ready QR codes with your business logo, custom gradient dots, and printable tabletop PDF standees for 100% free with zero hosting costs.',
@@ -23,15 +23,18 @@ export const metadata: Metadata = {
   creator: 'BrandQR Studio',
   publisher: 'BrandQR Studio',
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    shortcut: '/icon.svg',
     apple: '/icon.svg',
   },
   openGraph: {
     title: 'Free Custom Brand Logo QR Code Generator | Zero Expiration',
     description:
       'Design, customize, and export print-ready QR codes with your business logo, custom gradient dots, and printable tabletop PDF standees for 100% free.',
-    url: 'https://brandqr.io',
+    url: 'https://brand-qr-generator.brandqr.workers.dev',
     siteName: 'BrandQR Studio',
     locale: 'en_US',
     type: 'website',

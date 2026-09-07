@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
           </Link>
 
           <a
-            href="https://github.com"
+            href="https://github.com/Rohithsrr/brand-qr-generator"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-xs font-semibold hover:border-slate-300 transition-colors"
