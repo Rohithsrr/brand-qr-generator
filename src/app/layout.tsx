@@ -33,6 +33,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'google799232760a336dc1',
   },
+  other: {
+    monetag: '9840f4796aa4dbd8c3b275342d738778',
+  },
   openGraph: {
     title: 'Free Custom Brand Logo QR Code Generator | Zero Expiration',
     description:
@@ -72,6 +75,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Monetag Verification */}
+        <meta name="monetag" content="9840f4796aa4dbd8c3b275342d738778" />
+
         {/* Google AdSense Programmatic Monetization Script */}
         {adsenseClientId && (
           <Script
