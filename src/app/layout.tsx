@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     shortcut: '/icon.svg',
     apple: '/icon.svg',
   },
+  verification: {
+    google: 'google799232760a336dc1',
+  },
   openGraph: {
     title: 'Free Custom Brand Logo QR Code Generator | Zero Expiration',
     description:
